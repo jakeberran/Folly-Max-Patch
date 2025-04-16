@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 2,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 207.0, 200.0, 1466.0, 703.0 ],
+		"rect" : [ -30.0, 239.0, 1466.0, 703.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,6 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-28",
@@ -82,7 +81,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 386.0, 306.0, 103.0, 22.0 ],
-					"text" : "scale 0. 1. 0. 0.98"
+					"text" : "scale 0. 1. 0. 0.25"
 				}
 
 			}
@@ -117,8 +116,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 256.0, 274.0, 103.0, 22.0 ],
-					"text" : "scale 0. 1. 0.05 1."
+					"patching_rect" : [ 256.0, 274.0, 110.0, 22.0 ],
+					"text" : "scale 0. 1. 0.05 0.4"
 				}
 
 			}
@@ -141,8 +140,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 197.0, 71.851849496364594, 97.0, 22.0 ],
-					"text" : "scale 0. 1. 1. 30."
+					"patching_rect" : [ 269.0, 87.851849496364594, 90.0, 22.0 ],
+					"text" : "scale 0. 1. 1. 5."
 				}
 
 			}
@@ -213,7 +212,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 384.0, 342.648136734962463, 111.0, 34.0 ],
+					"patching_rect" : [ 384.0, 342.648136734962463, 111.0, 33.0 ],
 					"text" : "limit to 30s to avoid\nforever reverb"
 				}
 
